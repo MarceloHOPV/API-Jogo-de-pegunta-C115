@@ -14,6 +14,7 @@ cd <nome_do_repositório>
 ```
 
 # 1.2. Criando e Ativando um Ambiente Virtual
+(Opcional se não quiser pule para o passo 1.3)
 
 ```bash
 python -m venv env
@@ -67,6 +68,7 @@ A maneira mais simples de interagir com a API é através da interface do **Swag
     - Clique no endpoint `GET /questions/{start_index}`.
     - Após isso, insira o índice **`0`** no campo `start_index` e clique em **"Try it out!"**.
     - O servidor retornará as 3 primeiras perguntas sem o campo `is_correct`.
+    - Caso queira ver outra perguntas pode colocar o index 3 pois existem 6 perguntas no software
 
 **Exemplo de Resposta:**
 ```json
